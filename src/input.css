@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+.fila1 { 
+    @apply px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900;
+}
+.fila { 
+    @apply px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900;
+}
+.fila2 {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-slate-600;
+}
+
+.bt1{
+    @apply text-green-50 bg-green-600 hover:bg-green-700 p-2 rounded-md font-medium m-1.5;
+}
+
+.bt2 {
+    
+    @apply text-red-50 bg-red-600 hover:bg-red-700 p-2 rounded-md font-medium;
+}
+
+.bt3 {
+    @apply text-yellow-50 bg-yellow-600 hover:bg-yellow-700 p-2 rounded-md font-medium m-1.5;
+
+}
+@tailwind utilities;
